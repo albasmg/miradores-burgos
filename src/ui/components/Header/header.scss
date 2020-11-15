@@ -3,7 +3,7 @@
   align-items: center;
   height: rem(124);
   background-color: $primary-color;
-  padding: rem(0) rem(40);
+  padding: rem(8) rem(40);
 
   &__logo {
     height: rem(110);
@@ -17,14 +17,14 @@
   &__title {
     font-family: $main-font;
     color: $light-color;
-    font-size: rem(50);
+    font-size: rem(40);
     font-weight: bold;
     margin: 0;
   }
 
   &__subtitle {
     font-family: $main-font;
-    font-size: rem(20);
+    font-size: rem(18);
     color: $secondary-color;
     margin: 0;
   }
