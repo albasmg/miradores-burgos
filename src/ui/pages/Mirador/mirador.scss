@@ -37,4 +37,32 @@
     font-family: $main-light-font;
     font-size: rem(16);
   }
+
+  &__carousel {
+    border: 2px solid red;
+  }
+
+  &__sectionLink {
+    margin: rem(20) rem(0);
+    font-size: rem(30);
+    color: $secondary-color;
+  }
+
+  &__nextStep {
+    height: rem(100);
+    padding: rem(10) rem(20);
+    background-color: $primary-color;
+    color: $light-color;
+  }
+
+  &__nextStepTitle {
+    font-family: $secondary-font;
+    margin-top: rem(20);
+    font-size: rem(20);
+  }
+
+  &__nextStepDescription {
+    font-family: $main-light-font;
+    margin-top: rem(10);
+  }
 }

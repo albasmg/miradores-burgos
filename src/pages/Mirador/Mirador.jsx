@@ -16,6 +16,7 @@ const Mirador = () => {
       subheaderTitle={MIRADOR_DATA[miradorId].subheaderTitle}
       introduction={MIRADOR_DATA[miradorId].introduction}
       sections={MIRADOR_DATA[miradorId].sections}
+      nextSteps={MIRADOR_DATA[miradorId].nextSteps}
     />
   );
 };

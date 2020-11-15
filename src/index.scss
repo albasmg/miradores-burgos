@@ -6,4 +6,11 @@
 
 //COMPONENTS
 @import './ui/components/Header/header.scss';
+@import './ui/components/Footer/footer.scss';
+@import './ui/components/Carousel/carousel.scss';
 @import './ui/pages/Mirador/mirador.scss';
+
+// THIRD PART LIBRARIES
+
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.core';
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.theme';
