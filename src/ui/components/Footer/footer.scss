@@ -1,4 +1,11 @@
 .footer {
-  height: rem(40);
+  display: flex;
+  align-items: center;
+  height: rem(100);
+  padding: 0 rem(20);
   background-color: $secondary-color;
+
+  &__logo {
+    height: rem(90);
+  }
 }

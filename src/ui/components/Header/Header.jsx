@@ -1,12 +1,15 @@
-import logo from '../../../assets/icons/logo.png';
+import logo from '../../../assets/icons/logo.svg';
 
 const Header = () => {
   return (
     <header className="header">
       <img src={logo} alt="logo" className="header__logo" />
       <div className="header__textContainer">
-        <h1 className="header__title">MIRADORES</h1>
-        <h2 className="header__subtitle">SOBRE LA CATEDRAL DE BURGOS</h2>
+        <h2 className="header__subtitle">
+          <span>SOBRE</span>
+          <span> LA CATEDRAL </span>
+          <span> DE BURGOS</span>
+        </h2>
       </div>
     </header>
   );
