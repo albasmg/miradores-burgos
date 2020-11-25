@@ -33,7 +33,7 @@ const CARTUJA = {
   nextSteps: {
     text:
       'A la Cartuja, que está un poco más lejos del centro se llega enlazando por el Bulevar del Ferrocarril, diseñado por los prestigiosos arquitectos Herzog & de Meuron. También caminando por las riberas del Arlanzón y los parques de La Quinta y Fuente del Prior.',
-    nextMirador: 2,
+    nextMirador: '/huelgas',
   },
 };
 

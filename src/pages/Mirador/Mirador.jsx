@@ -23,8 +23,6 @@ const MIRADOR_DATA = {
 const Mirador = () => {
   const { miradorId } = useParams();
 
-  console.log(miradorId);
-
   return (
     <MiradorPage
       subheaderTitle={MIRADOR_DATA[miradorId].subheaderTitle}

@@ -1,0 +1,11 @@
+.menu {
+  position: absolute;
+  width: 100%;
+  background-color: $primary-color;
+
+  &__item {
+    margin: rem(20) auto;
+    text-align: center;
+    color: $light-color;
+  }
+}

@@ -1,4 +1,5 @@
-import { Switch, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Switch, Route, useLocation } from 'react-router-dom';
 import Header from './ui/components/Header/Header.jsx';
 import Home from './pages/Home/Home.jsx';
 import Mirador from './pages/Mirador/Mirador';
@@ -9,6 +10,12 @@ import Interior from './pages/Interior/Interior';
 import Footer from './ui/components/Footer/Footer';
 
 const App = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [pathname]);
+
   return (
     <>
       <Header />

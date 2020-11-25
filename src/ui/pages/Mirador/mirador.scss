@@ -1,10 +1,10 @@
 .mirador {
   &__subheader {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: rem(48);
-    background-color: $secondary-color;
+    background-color: $primary-color;
     color: $primary-color;
     font-size: rem(14);
     padding: rem(8) rem(20);
@@ -12,6 +12,12 @@
     @include tablet {
       font-size: rem(20);
     }
+  }
+
+  &__menu {
+    height: rem(30);
+    width: rem(30);
+    cursor: pointer;
   }
 
   &__introduction {
