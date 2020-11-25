@@ -22,10 +22,14 @@
 
   &__subtitle {
     font-family: $main-font;
-    font-size: rem(30);
+    font-size: rem(24);
     font-weight: lighter;
     color: $light-color;
     margin: 0;
+
+    @include tablet {
+      font-size: rem(30);
+    }
 
     span {
       display: block;
