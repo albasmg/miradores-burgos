@@ -2,6 +2,7 @@ import photo1 from '../../../assets/images/mirador-1/desde_elmeh-1.jpg';
 import photo2 from '../../../assets/images/mirador-1/desde_elmeh-2.jpg';
 import photo3 from '../../../assets/images/mirador-1/desde_elmeh-3.jpg';
 import photo4 from '../../../assets/images/mirador-1/desde_elmeh-4.jpg';
+import plano from '../../../assets/images/planos/plano-web-mirador1.jpg';
 
 const MIRADOR_1 = {
   subheaderTitle: 'Desde el atrio del Museo de la Evolución',
@@ -12,7 +13,7 @@ const MIRADOR_1 = {
       secondParagraph:
         'Desde el atrio de entrada del MEH, <strong>diseñado por el arquitecto Navarro Baldeweg</strong> como un novedoso mirador elevado unos cuantos metros sobre las frondosas riberas del río Arlanzón, se contempla una atractiva panorámica del centro histórico de la ciudad presidido por el inconfundible perfil de la Catedral. También es el escenario de las mejores puestas de sol del verano burgalés.',
     },
-    image: [photo1],
+    image: [photo1, plano],
   },
   sections: [
     {

@@ -5,6 +5,7 @@ import photo4 from '../../assets/images/exterior/exterior-4.jpg';
 import photo5 from '../../assets/images/exterior/exterior-5a.jpg';
 import photo6 from '../../assets/images/exterior/exterior-5b.jpg';
 import photo7 from '../../assets/images/exterior/exterior-6.jpg';
+import plano from '../../assets/images/planos/plano-exterior-catedral.jpg';
 
 const EXTERIOR = {
   subheaderTitle: 'Un paseo alrededor de la catedral',
@@ -13,7 +14,7 @@ const EXTERIOR = {
       firstParagraph:
         'En la grandeza de un monumento no solo influye el conjunto de obras artísticas que configuran su estructura y contenido, además hay que tener en cuenta su integración espacial con el medio que lo rodea. Este es caso de la Catedral de Burgos que ve incrementado su valor estético por el contraste que se establece entre su preminente volumen arquitectónico y la trama urbana que se extiende a sus pies. Este paseo de descubrimiento discurre por todas las calles y plazas que rodean la basílica: los 600 metros más intensos del gótico español.',
     },
-    image: [photo1],
+    image: [photo1, plano],
   },
   sections: [
     {

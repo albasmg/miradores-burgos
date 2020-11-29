@@ -3,6 +3,7 @@ import photo2 from '../../../assets/images/mirador-7/desde-puentebesson-2.jpg';
 import photo3 from '../../../assets/images/mirador-7/desde-puentebesson-3.jpg';
 import photo4 from '../../../assets/images/mirador-7/desde-puentebesson-4.jpg';
 import photo5 from '../../../assets/images/mirador-7/desde-puentebesson-5.jpg';
+import plano from '../../../assets/images/planos/plano-web-mirador7.jpg';
 
 const MIRADOR_7 = {
   subheaderTitle: 'Desde el puente de Besson',
@@ -11,7 +12,7 @@ const MIRADOR_7 = {
       firstParagraph:
         'Después de disfrutar con las variadas perspectivas de la Catedral que nos ofrece el casco antiguo y medieval de Burgos, lo mejor es buscar de nuevo las riberas del Arlanzón y cruzar el río por el peatonal puente de Bessón. En el camino iremos descubriendo nuevas panorámicas del templo catedralicio interactuando, esta vez, con la ciudad más burguesa y decimonónica. Desde la muy llamativa vista desde la calle de la Asunción, hasta las que se contemplan tras cruzar el río Arlanzón por el puente de Bessón.',
     },
-    image: [photo1],
+    image: [photo1, plano],
   },
   sections: [
     {

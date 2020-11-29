@@ -10,8 +10,12 @@
 
   &__logo {
     margin-top: rem(18);
-    height: rem(200);
+    height: rem(100);
     position: relative;
+
+    @include tablet {
+      height: rem(200);
+    }
   }
 
   &__textContainer {

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/icons/logo.svg';
+import presentacionPhoto from '../../../assets/images/headers/cabeceras-presentacion.jpg';
 import mirador1photo from '../../../assets/images/headers/mirador-1-cabecera.jpg';
 import mirador2photo from '../../../assets/images/headers/mirador-2-cabecera.jpg';
 import mirador3photo from '../../../assets/images/headers/mirador-3-cabecera.jpg';
@@ -16,7 +17,8 @@ import miradorInteriorPhoto from '../../../assets/images/headers/interior-cabece
 import { useLocation } from 'react-router-dom';
 
 const mapRouteToBackground = {
-  '/': mirador1photo,
+  '/': presentacionPhoto,
+  '/miradores': mirador1photo,
   '/miradores/1': mirador1photo,
   '/miradores/2': mirador2photo,
   '/miradores/3': mirador3photo,

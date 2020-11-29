@@ -3,6 +3,7 @@ import photo2 from '../../../assets/images/mirador-5/desde-castillo-2.jpg';
 import photo3 from '../../../assets/images/mirador-5/desde-castillo-3.jpg';
 import photo4 from '../../../assets/images/mirador-5/desde-castillo-4.jpg';
 import photo5 from '../../../assets/images/mirador-5/desde-castillo-5.jpg';
+import plano from '../../../assets/images/planos/plano-web-mirador5.jpg';
 
 const MIRADOR_5 = {
   subheaderTitle: 'Desde el mirador del Castillo',
@@ -11,7 +12,7 @@ const MIRADOR_5 = {
       firstParagraph:
         'Toda urbe medieval que se precie tiene un castillo en lo más alto y Burgos no es una excepción. En las inmediaciones de esta histórica fortaleza en la que el conde Diego Porcelos, por encargo del rey de Asturias Alfonso III, fundó la ciudad en el año 884 se localiza el privilegiado mirador del Castillo. Es el mejor lugar para disfrutar de la más completa panorámica de la Catedral, del entramado urbano de la capital castellana y de unos atardeceres inolvidables.',
     },
-    image: [photo1],
+    image: [photo1, plano],
   },
   sections: [
     {

@@ -3,6 +3,7 @@ import photo2 from '../../../assets/images/mirador-3/desde-plazamayor-2.jpg';
 import photo3 from '../../../assets/images/mirador-3/desde-plazamayor-3.jpg';
 import photo4 from '../../../assets/images/mirador-3/desde-plazamayor-4.jpg';
 import photo5 from '../../../assets/images/mirador-3/desde-plazamayor-5.jpg';
+import plano from '../../../assets/images/planos/plano-web-mirador3.jpg';
 
 const MIRADOR_3 = {
   subheaderTitle: 'Desde la Plaza Mayor',
@@ -11,7 +12,7 @@ const MIRADOR_3 = {
       firstParagraph:
         'Sobre todo con buen tiempo es difícil alejarse del Espolón y de sus agradables terrazas, pero merece la pena pasar por debajo de los arcos que sostienen el edificio de la Casa Consistorial y descubrir la plaza Mayor de Burgos. Aunque a primera vista parece imposible divisar la Catedral entre los porticados edificios que dan forma a su irregular perímetro simplemente con alejarse en dirección a la calle del Almirante Bonifaz descubriremos una impactante panorámica de los volúmenes del templo alzándose majestuosos sobre los tejados de la plaza. ',
     },
-    image: [photo1],
+    image: [photo1, plano],
   },
   sections: [
     {

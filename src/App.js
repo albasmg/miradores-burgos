@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import { Switch, Route, useLocation } from 'react-router-dom';
+import Home from './ui/pages/Home/Home';
 import Header from './ui/components/Header/Header.jsx';
-import Home from './pages/Home/Home.jsx';
+import Miradores from './ui/pages/Miradores/Miradores.jsx';
 import Mirador from './pages/Mirador/Mirador';
 import Huelgas from './pages/Huelgas/Huelgas';
 import Exterior from './pages/Exterior/Exterior';
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/huelgas" component={Huelgas} />
         <Route path="/exterior" component={Exterior} />
         <Route path="/interior" component={Interior} />
+        <Route path="/miradores" exact component={Miradores} />
         <Route path="/" exact component={Home} />
       </Switch>
       <Footer />
