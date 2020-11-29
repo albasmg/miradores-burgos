@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import menuIcon from '../../../assets/icons/menu.png';
+import arrowIcon from '../../../assets/icons/flecha.svg';
 import Menu from '../../components/Menu/Menu';
 
 const Mirador = ({ subheaderTitle, introduction, sections, nextSteps }) => {
@@ -57,13 +58,20 @@ const Mirador = ({ subheaderTitle, introduction, sections, nextSteps }) => {
             </div>
           </div>
         ))}
-        <Link to={nextSteps.nextMirador}>
-          <div className="mirador__nextStep">
-            <p className="mirador__nextStepTitle">Siguiendo la ruta...</p>
-            <p className="mirador__nextStepDescription">{nextSteps.text}</p>
-          </div>
-        </Link>
       </div>
+      <Link to={nextSteps.nextMirador}>
+        <div className="mirador__nextStep">
+          <div className="desktop-wrapper">
+            <p className="mirador__nextStepTitle">Siguiendo la ruta...</p>
+            <div className="mirador__descriptionWrapper">
+              <p className="mirador__nextStepDescription">{nextSteps.text}</p>
+              <div className="mirador__arrowWrapper">
+                <img src={arrowIcon} alt="Siguiente" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </Link>
     </section>
   );
 };

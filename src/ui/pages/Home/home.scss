@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: rem(20);
+  cursor: pointer;
+
+  & > a {
+    width: 90%;
+    max-width: rem(700);
+  }
+
+  &__mirador {
+    height: rem(250);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: rem(20) rem(0);
+    border-radius: rem(10);
+    position: relative;
+  }
+
+  &__title {
+    position: absolute;
+    bottom: rem(20);
+    right: rem(20);
+    color: $light-color;
+    font-size: rem(20);
+  }
+}

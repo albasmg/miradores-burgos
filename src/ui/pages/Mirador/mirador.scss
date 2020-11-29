@@ -3,20 +3,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: rem(48);
     background-color: $primary-color;
     color: $primary-color;
-    font-size: rem(14);
-    padding: rem(8) rem(20);
+    padding: rem(16) rem(20);
 
     @include tablet {
       font-size: rem(20);
     }
   }
 
+  &__subheaderTitle {
+    color: $light-color;
+    font-size: rem(18);
+    width: rem(200);
+
+    @include tablet {
+      width: auto;
+    }
+  }
+
   &__menu {
-    height: rem(30);
-    width: rem(30);
+    height: rem(40);
+    width: rem(40);
     cursor: pointer;
   }
 
@@ -24,11 +32,16 @@
     margin: rem(20) rem(20) rem(20) rem(20);
     display: flex;
     flex-direction: column;
+    font-size: rem(18);
   }
 
   &__introductionParagraph {
     margin-top: rem(10);
     font-family: $main-light-font;
+  }
+
+  &__introduction:last-child {
+    margin-bottom: rem(20);
   }
 
   &__section {
@@ -46,17 +59,28 @@
 
   &__sectionText {
     font-family: $main-light-font;
-    font-size: rem(16);
+    font-size: rem(18);
     margin-bottom: rem(20);
   }
 
-  &__imageWrapper {
+  &__imageContainer {
+    height: 100%;
     width: 100%;
+
+    @include tablet {
+      display: flex;
+      justify-content: center;
+    }
   }
 
   &__image {
     height: 100%;
     width: 100%;
+
+    @include tablet {
+      height: rem(500);
+      width: auto;
+    }
   }
 
   &__sectionLink {
@@ -78,13 +102,30 @@
     font-size: rem(20);
   }
 
+  &__descriptionWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__nextStepDescription {
     font-family: $main-light-font;
     margin-top: rem(10);
+    width: 80%;
+    margin-bottom: rem(20);
+
+    @include tablet {
+      max-width: rem(700);
+    }
+  }
+
+  &__arrowWrapper {
+    height: rem(60);
+    width: rem(60);
+    margin-top: rem(20);
   }
 }
 
 .desktop-wrapper {
-  max-width: 1200px;
+  max-width: rem(800);
   margin: auto;
 }
