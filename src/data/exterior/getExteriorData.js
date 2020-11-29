@@ -2,7 +2,6 @@ import photo1 from '../../assets/images/exterior/exterior-1.jpg';
 import photo2 from '../../assets/images/exterior/exterior-2.jpg';
 import photo3 from '../../assets/images/exterior/exterior-3.jpg';
 import photo4 from '../../assets/images/exterior/exterior-4.jpg';
-import photo5 from '../../assets/images/exterior/exterior-5a.jpg';
 import photo6 from '../../assets/images/exterior/exterior-5b.jpg';
 import photo7 from '../../assets/images/exterior/exterior-6.jpg';
 import plano from '../../assets/images/planos/plano-exterior-catedral.jpg';
@@ -32,14 +31,14 @@ const EXTERIOR = {
     {
       title: 'Capilla del Condestable y Portada de la Pellejería',
       bodyText:
-        'El paseo prosigue hacia la derecha por las estrechas calles de la Paloma y Diego Porcelos, que permiten acceder hasta la rehabilitada Llana de Afuera y descubrir el inconfundible perfil de la Capilla del Condestable —una catedral pegada a la Catedral— y la puerta de la Pellejería, en la que se dieron los primeros pasos del renacimiento burgalés. Después hay que tomar la bien trazada escalera que ascienden hasta la calle Fernán González y su mirador sobre la espectacular cabecera de la Catedral. Quizá el mejor lugar para apreciar el desnivel existente entre los distintos elementos del templo.',
+        'El paseo prosigue hacia la derecha por las estrechas calles de la Paloma y Diego Porcelos, que permiten acceder hasta la rehabilitada Llana de Afuera y descubrir el inconfundible perfil de la Capilla del Condestable —una catedral pegada a la Catedral— y la puerta de la Pellejería, en la que se dieron los primeros pasos del renacimiento burgalés. Después hay que tomar la bien trazada escalera que asciende hasta la calle Fernán González y su mirador sobre la espectacular cabecera de la Catedral. Quizá el mejor lugar para apreciar el desnivel existente entre los distintos elementos del templo.',
       image: [photo4],
     },
     {
       title: 'Fachada de la Coronería',
       bodyText:
         'La calle de Fernán González, por la que discurre el Camino de Santiago y se solapan los dos Patrimonios de la Humanidad de los que presume Burgos, pasa bajo la fachada de la Coronería. Aunque de menor desarrollo por haberse adaptado al desnivel topográfico cuenta también con tres cuerpos rematados por una galería calada adornada con estatuas. Su portada, en la que destaca una elegante representación del Juicio Final, ha sido fechada hacia 1250.',
-      image: [photo5, photo6],
+      image: [photo6],
     },
     {
       title: 'Fachada Real',

@@ -29,17 +29,11 @@ const MIRADOR_1 = {
       image: [photo3],
     },
     {
-      title: 'Paseo del Espoloncillo',
-      bodyText:
-        'Si hacemos caso al premio Nobel norteamericano Ernest Hemingway, que solía detenerse en Burgos durante sus viajes por España, justo a 200 metros del MEH y en el sombreado paseo del Espoloncillo nos vamos a encontrar con una de las más bellas panorámicas urbanas de Europa. Que los viajeros juzguen por si mismos, pero la vista de las riberas del Arlanzón —rebosantes de biodiversidad— con el Paseo del Espolón y el perfil de la Catedral al otro lado del río no van a dejar a nadie indiferente.',
-      image: [photo4],
-    },
-    {
       title: 'Otro museo a cinco minutos',
       bodyText:
         'A solo cinco minutos andando nos queda el Museo de Burgos, uno de los mejores en su género de España y visita imprescindible para los viajeros que quieran profundizar en la memoria de la capital del Arlanzón. Situado en el interior de los bellos palacios renacentistas de Miranda, Angulo y Melgosa, tiene un aire cuidado, moderno y rigurosamente didáctico que invita al agradable aprovechamiento de todos sus contenidos.',
       linkText: 'LINK',
-      image: [photo1],
+      image: [photo2],
     },
   ],
   nextSteps: {

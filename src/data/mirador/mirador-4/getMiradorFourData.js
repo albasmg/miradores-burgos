@@ -1,8 +1,8 @@
-import photo1 from '../../../assets/images/mirador-2/desde-elespolon-1.jpg';
-import photo2 from '../../../assets/images/mirador-2/desde-elespolon-2.jpg';
-import photo3 from '../../../assets/images/mirador-2/desde-elespolon-3.jpg';
-import photo4 from '../../../assets/images/mirador-2/desde-elespolon-4.jpg';
-import photo5 from '../../../assets/images/mirador-2/desde-elespolon-5.jpg';
+import photo1 from '../../../assets/images/mirador-4/desde-lasllanas-1.jpg';
+import photo2 from '../../../assets/images/mirador-4/desde-lasllanas-2.jpg';
+import photo3 from '../../../assets/images/mirador-4/desde-lasllanas-3.jpg';
+import photo4 from '../../../assets/images/mirador-4/desde-lasllanas-4.jpg';
+import photo5 from '../../../assets/images/mirador-4/desde-lasllanas-5.jpg';
 
 const MIRADOR_4 = {
   subheaderTitle: 'Desde las llanas',

@@ -9,7 +9,7 @@ const MIRADOR_2 = {
   introduction: {
     text: {
       firstParagraph:
-        'Llegando desde el MEH nos encontramos con el Teatro Principal que señala una de las entradas al paseo del Espolón. Junto al marcado polisón de este edificio decimonónico de estilo isabelino se localiza el segundo mirador de esta ruta de homenaje a la Catedral de Burgos. Lo mejor es situarse a unos metros del borde de la romántica fuente que preside el entorno y disfrutar del juego de volúmenes que se produce entre los volúmenes catedralicios y el variado arbolado del Espolón. Como demuestra la fotografía, también en invierno merece la pena acercarse hasta un ‘Burgos, que no te dejará frío’.',
+        'Llegando desde el MEH nos encontramos con el Teatro Principal que señala una de las entradas al paseo del Espolón. Junto al marcado polisón de este edificio decimonónico de estilo isabelino se localiza el segundo mirador de esta ruta de homenaje a la Catedral de Burgos. Lo mejor es situarse a unos metros del borde de la romántica fuente que preside el entorno y disfrutar del juego de volúmenes que se produce entre los volúmenes catedralicios y el variado arbolado del Espolón.',
     },
     image: [photo1],
   },

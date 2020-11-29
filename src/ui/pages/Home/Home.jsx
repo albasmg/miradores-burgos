@@ -61,7 +61,7 @@ const Home = () => {
             soluciones artísticas que unos años después ayudarían a dar forma al
             principal templo burgalés.
           </p>
-          <Link to="/cartuja">
+          <Link to="/huelgas">
             <img
               src={presentacion3}
               alt="Miradores"
@@ -72,15 +72,15 @@ const Home = () => {
         <div className="home__presentation">
           <h4 className="home__sectionTitle">Desde la Cartuja de Miraflores</h4>
           <p className="home__presentationText">
-            Junto a Las Huelgas y la Catedral forman uno de los triángulos
+            Junto a Las Huelgas y la Catedral forma uno de los triángulos
             artísticos con mayor reconocimiento de España. El prestigio y la
             riqueza artística de la Cartuja de Miraflores, uno notable monumento
             del gótico final europeo, se deben a Isabel la Católica y su empeño
-            de construir el más lujoso panteón para sus padres. En las obras
+            en construir el más lujoso panteón para sus padres. En las obras
             intervinieron los mismos y geniales artistas que a finales del siglo
             XV estaban trabajando en la seo burgalesa.
           </p>
-          <Link to="/huelgas">
+          <Link to="/cartuja">
             <img
               src={presentacion4}
               alt="Miradores"
@@ -120,7 +120,7 @@ const Home = () => {
             en un solo punto de interés. Para facilitar la visita os ofrecemos,
             aunque hay muchos más, los ocho enclaves imprescindibles.
           </p>
-          <Link to="/exterior">
+          <Link to="/interior">
             <img
               src={presentacion6}
               alt="Miradores"

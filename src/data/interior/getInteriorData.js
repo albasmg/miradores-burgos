@@ -22,7 +22,7 @@ const INTERIOR = {
     {
       title: 'Capilla de la Presentación',
       bodyText:
-        'Siguiendo el sentido obligatorio de la visita, la primera parada imprescindible hay que realizarla en la capilla de la Presentación, construida por Juan de Matienzo a comienzos del siglo XVI y que está rematada por una impactante bóveda estrellada. En el centro destaca un sepulcro esculpido en alabstro por Felipe de Vigarny.',
+        'Siguiendo el sentido obligatorio de la visita, la primera parada imprescindible hay que realizarla en la capilla de la Presentación, construida por Juan de Matienzo a comienzos del siglo XVI y que está rematada por una impactante bóveda estrellada. En el centro destaca un sepulcro esculpido en albastro por Felipe de Vigarny.',
       image: [photo2],
     },
     {
