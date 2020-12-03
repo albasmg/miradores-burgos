@@ -1,7 +1,6 @@
 import photo1 from '../../../assets/images/mirador-1/desde_elmeh-1.jpg';
 import photo2 from '../../../assets/images/mirador-1/desde_elmeh-2.jpg';
 import photo3 from '../../../assets/images/mirador-1/desde_elmeh-3.jpg';
-import photo4 from '../../../assets/images/mirador-1/desde_elmeh-4.jpg';
 import plano from '../../../assets/images/planos/plano-web-mirador1.jpg';
 
 const MIRADOR_1 = {
