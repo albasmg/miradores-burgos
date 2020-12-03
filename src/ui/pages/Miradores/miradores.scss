@@ -12,17 +12,12 @@
   }
 
   &__mirador {
-    height: rem(200);
     background-size: cover;
     background-repeat: no-repeat;
     margin: rem(20) rem(0);
     border-radius: rem(10);
     position: relative;
     overflow: hidden;
-
-    @include tablet {
-      height: rem(320);
-    }
 
     & > img {
       width: 100%;
