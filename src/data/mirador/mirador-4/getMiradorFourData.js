@@ -5,7 +5,7 @@ import photo4 from '../../../assets/images/mirador-4/desde-lasllanas-4.jpg';
 import photo5 from '../../../assets/images/mirador-4/desde-lasllanas-5.jpg';
 
 const MIRADOR_4 = {
-  subheaderTitle: 'Desde las llanas',
+  subheaderTitle: 'Desde las Llanas',
   introduction: {
     text: {
       firstParagraph:
